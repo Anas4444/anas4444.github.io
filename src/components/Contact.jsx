@@ -7,9 +7,10 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
-// ryoqOwMJcArOmegg1
-// template_zq8tl8z
-// service_h0cl3g6
+import request from 'request';
+
+const URL = 'https://github.com/Anas4444/projects-configuration/blob/main/portfolio-config.yml';
+const TOKEN = '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';
 
 const Contact = () => {
   const formRef = useRef();

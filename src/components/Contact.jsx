@@ -7,12 +7,6 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
-<<<<<<< HEAD
-const URL = 'https://github.com/Anas4444/projects-configuration/blob/main/portfolio-config.yml';
-const TOKEN = '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';
-
-=======
->>>>>>> e6a40874fd53070cc7c1b4a99665ce3c9032ef53
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({

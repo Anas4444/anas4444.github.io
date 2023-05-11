@@ -207,7 +207,7 @@ const activities = [
     points: [
       "It is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems.",
       "We used C++ to tackle the hackathon challenges.",
-      "We had a global rating of 1253, a national ranking of 116, and a university ranking of 4.",
+      "Codebusters2 ranked 1253 globally, 116 nationally, and 4 at the university level.",
     ],
   },
   {

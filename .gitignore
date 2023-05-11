@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+bg_templates/*
+logo/*
+logo_templates/*
+config.yml
+firebase-debug.log
+
+README.md

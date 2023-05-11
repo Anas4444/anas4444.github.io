@@ -53,12 +53,9 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]"
       >
-        I'm a solo learner, I try to make the best with what I have, right now I'm an intermediate 3d designer and a programmer. 
-        I post most of my art on artstation, feel free to check my Portfolio there :)
-        I'm constantly challenging myself to become an indie game developper, 
-        I know the basics of unreal engine Blueprints and C++, I use python for other purposes like web programming (django), 
-        data visualization (matplotlib | pygal | folium) and recently 
-        I made the first steps in the field of machine learning (scikit-learn | tensorflow)
+        I have a strong focus on web development and a deep passion for game development 
+        and 3D modeling. My coursework includes computer graphics and game development, and I am proficient in programming languages like C++, Java, Python, and JavaScript. 
+        I am now seeking an exciting software engineering role that leverages cutting-edge technology to create captivating user experiences.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

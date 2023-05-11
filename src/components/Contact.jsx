@@ -7,8 +7,6 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
-import request from 'request';
-
 const URL = 'https://github.com/Anas4444/projects-configuration/blob/main/portfolio-config.yml';
 const TOKEN = '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';
 

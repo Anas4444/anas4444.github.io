@@ -5,6 +5,14 @@ import {
   web,
   javascript,
   typescript,
+  mysql,
+  blender,
+  unreal,
+  unity,
+  django,
+  spring,
+  python,
+  cpp,
   html,
   css,
   reactjs,
@@ -16,11 +24,15 @@ import {
   figma,
   docker,
   meta,
+  cll,
+  ieee,
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  paymee,
+  etudiantstartuppeur,
+  scoretracker,
+  microservices,
   tripguide,
   threejs,
 } from "../assets";
@@ -35,6 +47,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "extra",
+    title: "Extra",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -42,19 +58,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Frontend Developer",
+    icon: mobile,
+  },
+  {
+    title: "Game Developer",
+    icon: web,
+  },
+  {
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -73,28 +89,40 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "C++",
+    icon: cpp,
+  },
+  {
+    name: "Spring",
+    icon: spring,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Unreal",
+    icon: unreal,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "Unity",
+    icon: unity,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Mysql",
+    icon: mysql,
   },
   {
     name: "Three JS",
@@ -105,8 +133,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Blender",
+    icon: blender,
   },
   {
     name: "docker",
@@ -169,6 +197,32 @@ const experiences = [
   },
 ];
 
+const activities = [
+  {
+    title: "IEEEXtreme 16.0",
+    organisation_name: "Institute of Electrical and Electronics Engineers",
+    icon: ieee,
+    iconBg: "#E6DEDD",
+    date: "2023",
+    points: [
+      "It is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems.",
+      "We used C++ to tackle the hackathon challenges.",
+      "We had a global rating of 1253, a national ranking of 116, and a university ranking of 4.",
+    ],
+  },
+  {
+    title: "CLL Hackathon",
+    organisation_name: "Club des Logiciels Libres",
+    icon: cll,
+    iconBg: "#383E56",
+    date: "2021",
+    points: [
+      "It is a competition in which we design a dynamic web application for the CLL club.",
+      "My task involves developing the frontend side of the web application using CSS and HTML5.",
+    ],
+  },
+];
+
 const testimonials = [
   {
     testimonial:
@@ -198,68 +252,76 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Score Tracker Solution",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Score Tracker Solution is a dynamic web application designed to monitor and record the current ranking and score of each member of the FST Startup Nation club. It comprises of two distinct sections, namely the member page and the administrator page.",
     tags: [
       {
-        name: "react",
+        name: "expressjs",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "docker",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "googleapi",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: scoretracker,
+    source_code_link: "https://github.com/Anas4444/Score-Tracker-Solution",
   },
   {
-    name: "Job IT",
+    name: "Etudiant Startuppeur",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Etudiant Startuppeur is a dynamic web application built with the Django Framework that allows users to register for an online Entrepreneurial Event hosted by the FST Startup Nation club.",
     tags: [
       {
-        name: "react",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "pandas",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "gmailapi",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: etudiantstartuppeur,
+    source_code_link: "https://github.com/Anas4444/Etudiant-Startuppeur",
   },
   {
-    name: "Trip Guide",
+    name: "Microservices",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This project is an implementation of the micro-services architecture using spring boot and spring cloud, where configuration files were externalized to a git repository using spring cloud config-server, each micro-service is registered to a discovery server eureka server, and for each request, the gateway server obtains client information from eureka server and roots it into a given path.",
     tags: [
       {
-        name: "nextjs",
+        name: "springboot",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "springcloud",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "eureka",
         color: "pink-text-gradient",
       },
+      {
+        name: "keycloak",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "mauve-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: microservices,
+    source_code_link: "https://github.com/Anas4444/Microservices",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, activities, testimonials, projects };

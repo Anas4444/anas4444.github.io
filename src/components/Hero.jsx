@@ -24,9 +24,8 @@ const Hero = () => {
             span></h1>
             <p className={`${styles.heroSubText} mt-2
             text-white-100`}>
-              I develop 3D models, REST APIs and <br
-              className="sm:black hidden" />
-              dynamic web applications.
+              A Software Engineering Student at<br
+              className="sm:black hidden" /> the Faculty of Science of Tunis - FST.
             </p>
         </div>
       </div>

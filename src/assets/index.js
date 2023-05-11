@@ -37,9 +37,9 @@ import tesla from "./company/tesla.png";
 import cll from "./club/cll.png";
 import ieee from "./club/ieee.png";
 
-import paymee from "./paymee.PNG";
-import etudiantstartuppeur from "./esregistration.PNG";
-import scoretracker from "./scoretracker.PNG";
+import paymee from "./paymee.png";
+import etudiantstartuppeur from "./esregistration.png";
+import scoretracker from "./scoretracker.png";
 import microservices from "./microservices.png";
 import tripguide from "./tripguide.png";
 

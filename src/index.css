@@ -33,6 +33,16 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.black2-gradient {
+  background: #000000;
+  background: linear-gradient(-90deg, #000000 50%, rgba(75, 75, 75, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #000000 50%,
+    rgba(75, 75, 75, 0) 100%
+  );
+}
+
 .violet-gradient {
   background: #804dee;
   background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
@@ -40,6 +50,40 @@
     -90deg,
     #804dee 0%,
     rgba(60, 51, 80, 0) 100%
+  );
+}
+
+.red-gradient {
+  background: #ff0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff6969,
+    #ff0000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff6969,
+    #ff0000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.red2-gradient {
+  background: #ff0000;
+  background: linear-gradient(-90deg, #ff0000 50%, rgba(80, 51, 51, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #ff0000 50%,
+    rgba(80, 51, 51, 0) 100%
+  );
+}
+
+.blue-gradient {
+  background: #0073ff;
+  background: linear-gradient(-90deg, #0073ff 50%, rgba(51, 66, 80, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #0073ff 50%,
+    rgba(51, 66, 80, 0) 100%
   );
 }
 

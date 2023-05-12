@@ -4,7 +4,6 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   mysql,
   blender,
   unreal,
@@ -16,12 +15,8 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
   nodejs,
-  mongodb,
   git,
-  figma,
   docker,
   meta,
   cll,
@@ -33,7 +28,10 @@ import {
   etudiantstartuppeur,
   scoretracker,
   microservices,
-  tripguide,
+  pathfinding,
+  mychess,
+  compiler,
+  assets,
   threejs,
 } from "../assets";
 
@@ -77,24 +75,28 @@ const services = [
 
 const technologies = [
   {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Three JS",
+    icon: threejs,
+  },
+  {
     name: "HTML 5",
     icon: html,
   },
   {
     name: "CSS 3",
     icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "C++",
-    icon: cpp,
-  },
-  {
-    name: "Spring",
-    icon: spring,
   },
   {
     name: "Python",
@@ -105,36 +107,28 @@ const technologies = [
     icon: django,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Unreal",
-    icon: unreal,
-  },
-  {
-    name: "Unity",
-    icon: unity,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Spring",
+    icon: spring,
   },
   {
     name: "Mysql",
     icon: mysql,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "C++",
+    icon: cpp,
   },
   {
-    name: "git",
-    icon: git,
+    name: "Unreal",
+    icon: unreal,
   },
   {
     name: "Blender",
     icon: blender,
+  },
+  {
+    name: "git",
+    icon: git,
   },
   {
     name: "docker",
@@ -257,20 +251,22 @@ const projects = [
       "Score Tracker Solution is a dynamic web application designed to monitor and record the current ranking and score of each member of the FST Startup Nation club. It comprises of two distinct sections, namely the member page and the administrator page.",
     tags: [
       {
-        name: "expressjs",
+        name: "Expressjs",
         color: "blue-text-gradient",
       },
       {
-        name: "docker",
+        name: "Docker",
         color: "green-text-gradient",
       },
       {
-        name: "googleapi",
+        name: "GoogleAPI",
         color: "pink-text-gradient",
       },
     ],
     image: scoretracker,
     source_code_link: "https://github.com/Anas4444/Score-Tracker-Solution",
+    demo_link: "",
+    art_link : "",
   },
   {
     name: "Etudiant Startuppeur",
@@ -278,49 +274,148 @@ const projects = [
       "Etudiant Startuppeur is a dynamic web application built with the Django Framework that allows users to register for an online Entrepreneurial Event hosted by the FST Startup Nation club.",
     tags: [
       {
-        name: "django",
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
-        name: "pandas",
+        name: "Pandas",
         color: "green-text-gradient",
       },
       {
-        name: "gmailapi",
+        name: "GmailAPI",
         color: "pink-text-gradient",
       },
     ],
     image: etudiantstartuppeur,
     source_code_link: "https://github.com/Anas4444/Etudiant-Startuppeur",
+    demo_link: "",
+    art_link : "",
   },
   {
-    name: "Microservices",
+    name: "Micro-services",
     description:
       "This project is an implementation of the micro-services architecture using spring boot and spring cloud, where configuration files were externalized to a git repository using spring cloud config-server, each micro-service is registered to a discovery server eureka server, and for each request, the gateway server obtains client information from eureka server and roots it into a given path.",
     tags: [
       {
-        name: "springboot",
+        name: "Springboot",
         color: "blue-text-gradient",
       },
       {
-        name: "springcloud",
+        name: "Springcloud",
         color: "green-text-gradient",
       },
       {
-        name: "eureka",
+        name: "Eureka",
         color: "pink-text-gradient",
       },
       {
-        name: "keycloak",
+        name: "Keycloak",
         color: "orange-text-gradient",
       },
       {
-        name: "docker",
+        name: "Docker",
         color: "mauve-text-gradient",
       },
     ],
     image: microservices,
     source_code_link: "https://github.com/Anas4444/Microservices",
+    demo_link: "",
+    art_link : "",
+  },
+  {
+    name: "Payment Template",
+    description:
+      "Payment Template in a dynamic web application developed with expressJS which integrates the Paymee API for a complete digital payment process.",
+    tags: [
+      {
+        name: "Expressjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "PaymeeAPI",
+        color: "green-text-gradient",
+      },
+      {
+        name: "GoogleAPI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: paymee,
+    source_code_link: "https://github.com/Anas4444/Payment-template",
+    demo_link: "",
+    art_link : "",
+  },
+  {
+    name: "Maze Game",
+    description:
+      "Maze Game features an AI agent that uses path finding algorithms to navigate the maze, determining the shortest path to a destination or tracking down an enemy. Maze generation is based on a text file dynamically converted into 3D objects at the start of each game.",
+    tags: [
+      {
+        name: "UnrealEngine",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "C++",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Blueprints",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pathfinding,
+    source_code_link: "https://github.com/Anas4444/Maze-Game",
+    demo_link: "https://youtu.be/G98tCVbPJy8",
+    art_link : "",
+  },
+  {
+    name: "Mychess",
+    description:
+      "Mychess is a Windows-based 2D chess game that was developed in 2020 using Pygame, an open-source cross-platform library.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Pygame",
+        color: "green-text-gradient",
+      },
+    ],
+    image: mychess,
+    source_code_link: "https://github.com/Anas4444/Mychess",
+    demo_link: "",
+    art_link : "",
+  },
+  {
+    name: "Compiler",
+    description:
+      "A compiler including a Lexical, Syntactic and Semantic Analyzer using the java language and generating a C++ code.",
+    tags: [
+      {
+        name: "Java",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: compiler,
+    source_code_link: "https://github.com/Anas4444/Compiler-Project",
+    demo_link: "",
+    art_link : "",
+  },
+  {
+    name: "3D Assets",
+    description:
+      "A selection of the 3D models I have created comprising of both lowpoly and stylized assets.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: assets,
+    source_code_link: "https://github.com/Anas4444/3D-Assets",
+    demo_link: "",
+    art_link : "https://fluffy-homburg-682.notion.site/Portfolio-4a5d11985d594858a8a26fea467f5523",
   },
 ];
 

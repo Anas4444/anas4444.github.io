@@ -2,13 +2,44 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { github } from '../assets';
+import { github, youtube, notion } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description,
-tags, image, source_code_link }) => {
+tags, image, source_code_link, demo_link, art_link }) => {
+
+  const Demo = () => demo_link === "" ? <></> : <div
+    onClick={() => window.open
+      (demo_link, "_blank")}
+    className="red2-gradient w-10 h-10 mx-[0.5%]
+    rounded-full flex justify-center
+    items-center cursor-pointer"
+  >
+    <img
+      src={youtube}
+      alt="youtube"
+      className="w-3 h-3
+      object-conntain"
+    />
+  </div>
+
+  const Art = () => art_link === "" ? <></> : <div
+  onClick={() => window.open
+    (art_link, "_blank")}
+  className="blue-gradient w-10 h-10 mx-[0.5%]
+  rounded-full flex justify-center
+  items-center cursor-pointer"
+  >
+  <img
+    src={notion}
+    alt="notion"
+    className="w-4 h-4
+    object-conntain"
+  />
+  </div>
+
   return (
     <motion.div
       variants={fadeIn("up", "spring",
@@ -33,10 +64,12 @@ tags, image, source_code_link }) => {
 
           <div className="absolute inset-0 flex
           justify-end m-3 card-img-hover">
+            <Art />
+            <Demo />
             <div
               onClick={() => window.open
                 (source_code_link, "_blank")}
-              className="black-gradient w-10 h-10
+              className="black2-gradient w-10 h-10
               rounded-full flex justify-center
               items-center cursor-pointer"
             >
@@ -46,7 +79,7 @@ tags, image, source_code_link }) => {
                 className="w-1/2 h-1/2
                 object-conntain"
               />
-            </div> 
+            </div>
           </div>
         </div>
 

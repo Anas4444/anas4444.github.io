@@ -4,6 +4,9 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import youtube from "./youtube.png";
+import artstation from "./artstation.png";
+import notion from "./notion.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -41,6 +44,10 @@ import paymee from "./paymee.png";
 import etudiantstartuppeur from "./esregistration.png";
 import scoretracker from "./scoretracker.png";
 import microservices from "./microservices.png";
+import pathfinding from "./pathfinding.png";
+import mychess from "./mychess.png";
+import compiler from "./compiler.png";
+import assets from "./assets.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -50,6 +57,9 @@ export {
   mobile,
   web,
   github,
+  youtube,
+  artstation,
+  notion,
   menu,
   close,
   css,
@@ -83,5 +93,9 @@ export {
   etudiantstartuppeur,
   scoretracker,
   microservices,
+  pathfinding,
+  mychess,
+  compiler,
+  assets,
   tripguide,
 };

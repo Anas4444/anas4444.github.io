@@ -8,6 +8,7 @@ import Works from './Works';
 import Extracurricular from './Extracurricular';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
+import SocialMedia from "./SocialMedia";
 
 export {
   Hero,
@@ -19,6 +20,7 @@ export {
   Works,
   Feedbacks,
   Contact,
+  SocialMedia,
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 

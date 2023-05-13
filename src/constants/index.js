@@ -33,7 +33,28 @@ import {
   compiler,
   assets,
   threejs,
+  linkedin,
+  github,
+  artstation,
 } from "../assets";
+
+export const mediaLinks = [
+  {
+    title: "LinkedIn",
+    icon : linkedin,
+    link: "https://www.linkedin.com/in/anas-el-abed",
+  },
+  {
+    title: "Github",
+    icon : github,
+    link: "https://github.com/Anas4444",
+  },
+  {
+    title: "ArtStation",
+    icon : artstation,
+    link: "https://artstation.com/anas_abed",
+  },
+]
 
 export const navLinks = [
   {

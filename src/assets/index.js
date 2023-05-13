@@ -3,9 +3,12 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+
 import github from "./github.png";
 import youtube from "./youtube.png";
 import artstation from "./artstation.png";
+import linkedin from "./linkedin.png";
+
 import notion from "./notion.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -59,6 +62,7 @@ export {
   github,
   youtube,
   artstation,
+  linkedin,
   notion,
   menu,
   close,

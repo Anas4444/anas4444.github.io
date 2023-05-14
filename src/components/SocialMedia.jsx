@@ -6,7 +6,7 @@ const Media = ({ icon, link }) => {
     return (
         <div
         onClick={() => window.open(link, "_blank")}
-        className="dark-blue-gradient w-20 h-20
+        className="blue-gradient w-20 h-20
         rounded-full flex justify-center items-center cursor-pointer 
         my-[10%]"
         >

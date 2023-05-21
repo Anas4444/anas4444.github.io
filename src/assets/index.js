@@ -42,6 +42,9 @@ import tesla from "./company/tesla.png";
 
 import cll from "./club/cll.png";
 import ieee from "./club/ieee.png";
+import ieeeras from "./club/ieeeras.png";
+import jci from "./club/jci.png";
+import fsn from "./club/fsn.png";
 
 import paymee from "./paymee.png";
 import etudiantstartuppeur from "./esregistration.png";
@@ -92,6 +95,9 @@ export {
   starbucks,
   cll,
   ieee,
+  ieeeras,
+  jci,
+  fsn,
   tesla,
   paymee,
   etudiantstartuppeur,

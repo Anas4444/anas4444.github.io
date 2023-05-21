@@ -21,6 +21,9 @@ import {
   meta,
   cll,
   ieee,
+  ieeeras,
+  jci,
+  fsn,
   starbucks,
   tesla,
   shopify,
@@ -214,11 +217,33 @@ const experiences = [
 
 const activities = [
   {
+    title: "JCI Zone A Spring Summit",
+    organisation_name: "Junior Chamber International Bardo",
+    icon: jci,
+    iconBg: "#4285F4",
+    date: "February 2023",
+    points: [
+      "Media Team member",
+      "This regional Jaycees meeting in Tunisia brings together +50 JCI from the north and the cap Bon, totaling +400 members.",
+    ],
+  },
+  {
+    title: "FST Robots 4.0",
+    organisation_name: "IEEE Robotics and Automation Society",
+    icon: ieeeras,
+    iconBg: "#444444",
+    date: "November 2022",
+    points: [
+      "Media Team member",
+      "a robotic competition which aims to encourage and reward young enthusiasts of this field.",
+    ],
+  },
+  {
     title: "IEEEXtreme 16.0",
     organisation_name: "Institute of Electrical and Electronics Engineers",
     icon: ieee,
-    iconBg: "#E6DEDD",
-    date: "2023",
+    iconBg: "#4285F4",
+    date: "October 2022",
     points: [
       "It is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems.",
       "We used C++ to tackle the hackathon challenges.",
@@ -226,13 +251,24 @@ const activities = [
     ],
   },
   {
+    title: "Etudiants Startupeurs 1.0",
+    organisation_name: "FST Startup Nation",
+    icon: fsn,
+    iconBg: "#444444",
+    date: "May 2022",
+    points: [
+      "Organized Etudiants Startupeurs 1.0.",
+      "A webinaire that includes entrepreneurship workshops and startup pitch competition empowering students to tackle real-world issues with innovative business concepts.",
+    ],
+  },
+  {
     title: "CLL Hackathon",
     organisation_name: "Club des Logiciels Libres",
     icon: cll,
-    iconBg: "#383E56",
+    iconBg: "#4285F4",
     date: "2021",
     points: [
-      "It is a competition in which we design a dynamic web application for the CLL club.",
+      "A competition in which we design a dynamic web application for the CLL club.",
       "My task involves developing the frontend side of the web application using CSS and HTML5.",
     ],
   },
@@ -290,9 +326,9 @@ const projects = [
     art_link : "",
   },
   {
-    name: "Etudiant Startuppeur",
+    name: "Etudiants Startupeurs",
     description:
-      "Etudiant Startuppeur is a dynamic web application built with the Django Framework that allows users to register for an online Entrepreneurial Event hosted by the FST Startup Nation club.",
+      "Etudiants Startupeurs is a dynamic web application built with the Django Framework that allows users to register for an online Entrepreneurial Event hosted by the FST Startup Nation club.",
     tags: [
       {
         name: "Django",

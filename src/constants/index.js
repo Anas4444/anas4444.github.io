@@ -165,8 +165,8 @@ const experiences = [
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing responsive design and ensuring cross-browser compatibility .",
+      "Participating in code reviews and providing constructive feedback to other developers .",
     ],
   },
   {
@@ -218,8 +218,8 @@ const activities = [
     iconBg: "#4285F4",
     date: "February 2023",
     points: [
-      "Media Team member",
-      "This regional Jaycees meeting in Tunisia brings together +50 JCI from the north and the cap Bon, totaling +400 members.",
+      "Media Team member .",
+      "This regional Jaycees meeting in Tunisia brings together +50 JCI from the north and the cap Bon, totaling +400 members .",
     ],
   },
   {
@@ -229,8 +229,8 @@ const activities = [
     iconBg: "#444444",
     date: "November 2022",
     points: [
-      "Media Team member",
-      "a robotic competition which aims to encourage and reward young enthusiasts of this field.",
+      "Media Team member .",
+      "a robotic competition which aims to encourage and reward young enthusiasts of this field .",
     ],
   },
   {
@@ -240,9 +240,9 @@ const activities = [
     iconBg: "#4285F4",
     date: "October 2022",
     points: [
-      "It is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems.",
-      "We used C++ to tackle the hackathon challenges.",
-      "Codebusters2 ranked 1253 globally, 116 nationally, and 4 at the university level.",
+      "It is a global challenge in which teams of IEEE Student members – advised and proctored by an IEEE member, and often supported by an IEEE Student Branch – compete in a 24-hour time span against each other to solve a set of programming problems .",
+      "We used C++ to tackle the hackathon challenges .",
+      "Codebusters2 ranked 1253 globally, 116 nationally, and 4 at the university level .",
     ],
   },
   {
@@ -252,8 +252,8 @@ const activities = [
     iconBg: "#444444",
     date: "May 2022",
     points: [
-      "Organized Etudiants Startupeurs 1.0.",
-      "A webinaire that includes entrepreneurship workshops and startup pitch competition empowering students to tackle real-world issues with innovative business concepts.",
+      "Organized Etudiants Startupeurs 1.0 .",
+      "A webinaire that includes entrepreneurship workshops and startup pitch competition empowering students to tackle real-world issues with innovative business concepts .",
     ],
   },
   {
@@ -263,8 +263,8 @@ const activities = [
     iconBg: "#4285F4",
     date: "2021",
     points: [
-      "A competition in which we design a dynamic web application for the CLL club.",
-      "My task involves developing the frontend side of the web application using CSS and HTML5.",
+      "A competition in which we design a dynamic web application for the CLL club .",
+      "My task involves developing the frontend side of the web application using CSS and HTML5 .",
     ],
   },
 ];
@@ -272,7 +272,7 @@ const activities = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong .",
     name: "Sara Lee",
     designation: "CFO",
     company: "Acme Co",
@@ -300,7 +300,7 @@ const projects = [
   {
     name: "Score Tracker Solution",
     description:
-      "Score Tracker Solution is a dynamic web application designed to monitor and record the current ranking and score of each member of the FST Startup Nation club. It comprises of two distinct sections, namely the member page and the administrator page.",
+      "Score Tracker Solution is a dynamic web application designed to monitor and record the current ranking and score of each member of the FST Startup Nation club. It comprises of two distinct sections, namely the member page and the administrator page .",
     tags: [
       {
         name: "Expressjs",
@@ -323,7 +323,7 @@ const projects = [
   {
     name: "Etudiants Startupeurs",
     description:
-      "Etudiants Startupeurs is a dynamic web application built with the Django Framework that allows users to register for an online Entrepreneurial Event hosted by the FST Startup Nation club.",
+      "Etudiants Startupeurs is a dynamic web application built with the Django Framework that allows users to register for an online Entrepreneurial Event hosted by the FST Startup Nation club .",
     tags: [
       {
         name: "Django",
@@ -346,7 +346,7 @@ const projects = [
   {
     name: "Micro-services",
     description:
-      "This project is an implementation of the micro-services architecture using spring boot and spring cloud, where configuration files were externalized to a git repository using spring cloud config-server, each micro-service is registered to a discovery server eureka server, and for each request, the gateway server obtains client information from eureka server and roots it into a given path.",
+      "This project is an implementation of the micro-services architecture using spring boot and spring cloud, where configuration files were externalized to a git repository using spring cloud config-server, each micro-service is registered to a discovery server eureka server, and for each request, the gateway server obtains client information from eureka server and roots it into a given path .",
     tags: [
       {
         name: "Springboot",
@@ -377,7 +377,7 @@ const projects = [
   {
     name: "Payment Template",
     description:
-      "Payment Template in a dynamic web application developed with expressJS which integrates the Paymee API for a complete digital payment process.",
+      "Payment Template in a dynamic web application developed with expressJS which integrates the Paymee API for a complete digital payment process .",
     tags: [
       {
         name: "Expressjs",
@@ -400,7 +400,7 @@ const projects = [
   {
     name: "Maze Game",
     description:
-      "Maze Game features an AI agent that uses path finding algorithms to navigate the maze, determining the shortest path to a destination or tracking down an enemy. Maze generation is based on a text file dynamically converted into 3D objects at the start of each game.",
+      "Maze Game features an AI agent that uses path finding algorithms to navigate the maze, determining the shortest path to a destination or tracking down an enemy. Maze generation is based on a text file dynamically converted into 3D objects at the start of each game .",
     tags: [
       {
         name: "UnrealEngine",
@@ -423,7 +423,7 @@ const projects = [
   {
     name: "Mychess",
     description:
-      "Mychess is a Windows-based 2D chess game that was developed in 2020 using Pygame, an open-source cross-platform library.",
+      "Mychess is a Windows-based 2D chess game that was developed in 2020 using Pygame, an open-source cross-platform library .",
     tags: [
       {
         name: "Python",
@@ -442,7 +442,7 @@ const projects = [
   {
     name: "Compiler",
     description:
-      "A compiler including a Lexical, Syntactic and Semantic Analyzer using the java language and generating a C++ code.",
+      "A compiler including a Lexical, Syntactic and Semantic Analyzer using the java language and generating a C++ code .",
     tags: [
       {
         name: "Java",
@@ -457,11 +457,15 @@ const projects = [
   {
     name: "3D Assets",
     description:
-      "A selection of the 3D models I have created comprising of both lowpoly and stylized assets.",
+      "A selection of the 3D models I have created comprising of both lowpoly and stylized assets .",
     tags: [
       {
         name: "Blender",
         color: "blue-text-gradient",
+      },
+      {
+        name: "UnrealEngine",
+        color: "green-text-gradient",
       },
     ],
     image: assets,

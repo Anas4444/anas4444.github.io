@@ -53,8 +53,8 @@ const About = () => {
         className="mt-4 text-secondary text-[17px]
         max-w-3xl leading-[30px]"
       >
-        I have a strong focus on web development and a deep passion for game development 
-        and 3D modeling. My coursework includes computer graphics and game development, and I am proficient in programming languages like C++, Java, Python, and JavaScript. 
+        With strong problem-solving and collaboration skills, I am dedicated to continuous learning and professional growth, aiming to make a meaningful industry impact. 
+        My coursework includes web development, computer graphics and game development, and I am proficient in programming languages like C++, Java, Python, and JavaScript. 
         I am now seeking an exciting software engineering role that leverages cutting-edge technology to create captivating user experiences.
       </motion.p>
 

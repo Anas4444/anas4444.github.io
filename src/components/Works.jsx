@@ -124,7 +124,7 @@ const Works = () => {
           Each project has a brief description as well as 
           links to source repositories and live demos. 
           It demonstrates my ability to work with various 
-          technologies, and effectively manage projects.
+          technologies, and effectively manage projects .
         </motion.p>
       </div>
 

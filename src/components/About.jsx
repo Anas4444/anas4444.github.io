@@ -55,7 +55,7 @@ const About = () => {
       >
         With strong problem-solving and collaboration skills, I am dedicated to continuous learning and professional growth, aiming to make a meaningful industry impact. 
         My coursework includes web development, computer graphics and game development, and I am proficient in programming languages like C++, Java, Python, and JavaScript. 
-        I am now seeking an exciting software engineering role that leverages cutting-edge technology to create captivating user experiences.
+        I am now seeking an exciting software engineering role that leverages cutting-edge technology to create captivating user experiences .
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

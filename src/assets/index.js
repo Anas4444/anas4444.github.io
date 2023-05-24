@@ -1,8 +1,11 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import frontend from "./frontend.png";
+import backend from "./backend.png";
+import gamedev from "./gamedev.png";
+import design from "./design.png";
 
 import github from "./github.png";
 import youtube from "./youtube.png";
@@ -59,6 +62,9 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   backend,
+  frontend,
+  gamedev,
+  design,
   creator,
   mobile,
   web,

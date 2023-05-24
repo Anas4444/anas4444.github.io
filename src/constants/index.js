@@ -1,6 +1,9 @@
 import {
   mobile,
   backend,
+  frontend,
+  gamedev,
+  design,
   creator,
   web,
   javascript,
@@ -85,15 +88,15 @@ const services = [
   },
   {
     title: "Frontend Developer",
-    icon: mobile,
+    icon: frontend,
   },
   {
     title: "Game Developer",
-    icon: web,
+    icon: gamedev,
   },
   {
     title: "Graphic Designer",
-    icon: creator,
+    icon: design,
   },
 ];
 
@@ -105,10 +108,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "HTML 5",

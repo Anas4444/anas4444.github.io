@@ -42,6 +42,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import xtensus from "./company/xtensus.png";
 
 import cll from "./club/cll.png";
 import ieee from "./club/ieee.png";
@@ -99,6 +100,7 @@ export {
   meta,
   shopify,
   starbucks,
+  xtensus,
   cll,
   ieee,
   ieeeras,

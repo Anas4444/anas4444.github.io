@@ -276,11 +276,11 @@ const projects = [
       },
       {
         name: "Html5",
-        color: "orange-text-gradient",
+        color: "pink-text-gradient",
       },
       {
         name: "Css3",
-        color: "mauve-text-gradient",
+        color: "orange-text-gradient",
       },
     ],
     image: jcibardowebsite,

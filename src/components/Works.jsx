@@ -15,14 +15,12 @@ tags, image, source_code_link, demo_link, art_link }) => {
       (demo_link, "_blank")}
     className="red2-gradient w-10 h-10 mx-[0.5%]
     rounded-full flex justify-center
-    items-center cursor-pointer"
-  >
+    items-center cursor-pointer">
     <img
       src={demo}
       alt="demo"
       className="w-3 h-3
-      object-conntain"
-    />
+      object-conntain"/>
   </div>
 
   const Art = () => art_link === "" ? <></> : <div
@@ -30,14 +28,25 @@ tags, image, source_code_link, demo_link, art_link }) => {
     (art_link, "_blank")}
   className="blue-gradient w-10 h-10 mx-[0.5%]
   rounded-full flex justify-center
-  items-center cursor-pointer"
-  >
+  items-center cursor-pointer">
   <img
     src={notion}
     alt="notion"
     className="w-4 h-4
-    object-conntain"
-  />
+    object-conntain"/>
+  </div>
+
+  const Code = () => source_code_link === "" ? <></> : <div
+  onClick={() => window.open
+    (source_code_link, "_blank")}
+  className="black2-gradient w-10 h-10
+  rounded-full flex justify-center
+  items-center cursor-pointer">
+    <img
+      src={github}
+      alt="github"
+      className="w-1/2 h-1/2
+      object-conntain"/>
   </div>
 
   return (
@@ -66,20 +75,7 @@ tags, image, source_code_link, demo_link, art_link }) => {
           justify-end m-3 card-img-hover">
             <Art />
             <Demo />
-            <div
-              onClick={() => window.open
-                (source_code_link, "_blank")}
-              className="black2-gradient w-10 h-10
-              rounded-full flex justify-center
-              items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="github"
-                className="w-1/2 h-1/2
-                object-conntain"
-              />
-            </div>
+            <Code />
           </div>
         </div>
 

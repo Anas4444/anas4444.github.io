@@ -264,7 +264,7 @@ const projects = [
   {
     name: "JCI Bardo website",
     description:
-      "JCI Bardo's website serves as the central information hub for our organization, providing a repository for accurate and up-to-date information .",
+      "JCI Bardo's website serves as the central information hub for the organization, providing a repository for accurate and up-to-date information .",
     tags: [
       {
         name: "Angular",

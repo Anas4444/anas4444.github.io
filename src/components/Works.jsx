@@ -2,7 +2,7 @@ import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
-import { github, youtube, notion } from '../assets';
+import { github, demo, notion } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
@@ -18,8 +18,8 @@ tags, image, source_code_link, demo_link, art_link }) => {
     items-center cursor-pointer"
   >
     <img
-      src={youtube}
-      alt="youtube"
+      src={demo}
+      alt="demo"
       className="w-3 h-3
       object-conntain"
     />

@@ -7,6 +7,7 @@ import {
   creator,
   web,
   javascript,
+  angular,
   mysql,
   blender,
   unreal,
@@ -43,6 +44,7 @@ import {
   linkedin,
   github,
   artstation,
+  jcibardowebsite,
 } from "../assets";
 
 export const mediaLinks = [
@@ -107,8 +109,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Angular",
+    icon: angular,
   },
   {
     name: "HTML 5",
@@ -259,6 +261,33 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "JCI Bardo website",
+    description:
+      "JCI Bardo's website serves as the central information hub for our organization, providing a repository for accurate and up-to-date information .",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Css",
+        color: "mauve-text-gradient",
+      },
+    ],
+    image: jcibardowebsite,
+    //source_code_link: "",
+    demo_link: "https://jci-bardo.github.io/jcibardowebsite/",
+    art_link : "",
+  },
   {
     name: "Score Tracker Solution",
     description:

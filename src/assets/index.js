@@ -6,6 +6,7 @@ import frontend from "./frontend.png";
 import backend from "./backend.png";
 import gamedev from "./gamedev.png";
 import design from "./design.png";
+import demo from "./demo.png";
 
 import github from "./github.png";
 import youtube from "./youtube.png";
@@ -19,6 +20,7 @@ import close from "./close.svg";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import mysql from "./tech/mysql.png";
+import angular from "./tech/angular.png";
 import python from "./tech/python.png";
 import django from "./tech/django.png";
 import blender from "./tech/blender.png";
@@ -51,6 +53,7 @@ import jci from "./club/jci.png";
 import fsn from "./club/fsn.png";
 
 import paymee from "./paymee.png";
+import jcibardowebsite from "./jcibardowebsite.png";
 import etudiantstartuppeur from "./esregistration.png";
 import scoretracker from "./scoretracker.png";
 import microservices from "./microservices.png";
@@ -79,6 +82,7 @@ export {
   css,
   docker,
   blender,
+  angular,
   unreal,
   unity,
   mysql,
@@ -116,4 +120,6 @@ export {
   compiler,
   assets,
   tripguide,
+  jcibardowebsite,
+  demo,
 };

@@ -284,7 +284,7 @@ const projects = [
       },
     ],
     image: jcibardowebsite,
-    //source_code_link: "",
+    source_code_link: "",
     demo_link: "https://jci-bardo.github.io/jcibardowebsite/",
     art_link : "",
   },

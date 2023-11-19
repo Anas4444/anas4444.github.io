@@ -45,6 +45,7 @@ import {
   github,
   artstation,
   jcibardowebsite,
+  artgallery,
 } from "../assets";
 
 export const mediaLinks = [
@@ -412,6 +413,40 @@ const projects = [
     art_link : "",
   },
   {
+    name: "METAKEN",
+    description:
+      "Introducing MATAKEN, an innovative startup born from the El Maken Hackathon. Our 3D prototype reimagines art exhibitions, offering a virtual painting immersive exhibition room where the lines between physical and digital art dissolve. Inspired by the beauty of Al Maken, La Marsa, Tunisia, this cutting-edge platform elevates artistic expression.",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: artgallery,
+    source_code_link: "https://github.com/Anas4444/artgallery",
+    demo_link: "https://youtu.be/zNb5OuLVBto",
+    art_link : "",
+  },
+  {
+    name: "3D Assets",
+    description:
+      "A selection of the 3D models I have created comprising of both lowpoly and stylized assets .",
+    tags: [
+      {
+        name: "Blender",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UnrealEngine",
+        color: "green-text-gradient",
+      },
+    ],
+    image: assets,
+    source_code_link: "https://github.com/Anas4444/3D-Assets",
+    demo_link: "",
+    art_link : "https://fluffy-homburg-682.notion.site/Portfolio-bbf4e7d355604d4d978fe3e71398b836?pvs=4",
+  },
+  {
     name: "Mychess",
     description:
       "Mychess is a Windows-based 2D chess game that was developed in 2020 using Pygame, an open-source cross-platform library .",
@@ -444,25 +479,6 @@ const projects = [
     source_code_link: "https://github.com/Anas4444/Compiler-Project",
     demo_link: "",
     art_link : "",
-  },
-  {
-    name: "3D Assets",
-    description:
-      "A selection of the 3D models I have created comprising of both lowpoly and stylized assets .",
-    tags: [
-      {
-        name: "Blender",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "UnrealEngine",
-        color: "green-text-gradient",
-      },
-    ],
-    image: assets,
-    source_code_link: "https://github.com/Anas4444/3D-Assets",
-    demo_link: "",
-    art_link : "https://fluffy-homburg-682.notion.site/Portfolio-4a5d11985d594858a8a26fea467f5523",
   },
 ];
 

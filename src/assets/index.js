@@ -62,6 +62,7 @@ import mychess from "./mychess.png";
 import compiler from "./compiler.png";
 import assets from "./assets.png";
 import tripguide from "./tripguide.png";
+import artgallery from "./prototype.png";
 
 export {
   logo,
@@ -122,4 +123,5 @@ export {
   tripguide,
   jcibardowebsite,
   demo,
+  artgallery,
 };

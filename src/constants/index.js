@@ -418,8 +418,12 @@ const projects = [
       "Introducing MATAKEN, an innovative startup born from the El Maken Hackathon. Our 3D prototype reimagines art exhibitions, offering a virtual painting immersive exhibition room where the lines between physical and digital art dissolve. Inspired by the beauty of Al Maken, La Marsa, Tunisia, this cutting-edge platform elevates artistic expression.",
     tags: [
       {
-        name: "Blender",
+        name: "Unity",
         color: "blue-text-gradient",
+      },
+      {
+        name: "Blender",
+        color: "green-text-gradient",
       },
     ],
     image: artgallery,
